@@ -1,0 +1,26 @@
+{
+    "name": "@netsells/storybook-vue-generate-arg-types",
+    "version": "1.0.0",
+    "main": "./dist/index.js",
+    "license": "MIT",
+    "scripts": {
+        "prepublish": "NODE_ENV=production npm run build",
+        "build": "babel -d dist/ lib/index.js"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.12.10",
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11"
+    },
+    "repository": {
+        "url": "https://github.com/netsells/storybook-vue-generate-arg-types"
+    },
+    "author": {
+        "name": "Sam Turrell",
+        "url": "https://samturrell.co.uk",
+        "email": "sam.turrell@netsells.co.uk"
+    },
+    "files": [
+        "dist/"
+    ]
+}
