@@ -2,7 +2,7 @@
     "name": "@netsells/storybook-vue-generate-arg-types",
     "version": "1.1.2",
     "main": "./dist/index.js",
-    "types": "./index.d.ts",
+    "types": "./types/index.d.ts",
     "license": "MIT",
     "scripts": {
         "prepublish": "NODE_ENV=production npm run build",
@@ -23,6 +23,6 @@
     },
     "files": [
         "dist/",
-        "index.d.ts"
+        "types/"
     ]
 }
