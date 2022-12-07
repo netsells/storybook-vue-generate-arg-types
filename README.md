@@ -13,7 +13,7 @@ $ yarn add -D @netsells/storybook-vue-generate-arg-types
 ```js
 // MyComponent.stories.js
 import MyComponent from './MyComponent';
-import { generateArgTypes } from '@netsells/storybook-vue-generate-arg-types';
+import generateArgTypes from '@netsells/storybook-vue-generate-arg-types';
 
 export default {
     // ...story config
@@ -26,7 +26,7 @@ If for any reason you'd like to override an arg type, you can pass an additional
 ```js
 // MyComponent.stories.js
 import MyComponent from './MyComponent';
-import { generateArgTypes } from '@netsells/storybook-vue-generate-arg-types';
+import generateArgTypes from '@netsells/storybook-vue-generate-arg-types';
 
 export default {
     // ...story config
